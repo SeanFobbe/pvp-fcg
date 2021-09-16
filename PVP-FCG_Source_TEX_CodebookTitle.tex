@@ -1,0 +1,115 @@
+%===========================
+% Definitions
+%===========================
+
+% Version DOI and version number must be coded by hand! DOI because it can only be created with an API token that should not be included in the source code, version number as it is difficult to cross-use variables between LaTeX and R.
+
+
+\newcommand{\dataauthor}{Seán Fobbe and Tilko Swalve}
+
+\newcommand{\datatitle}{Presidents and Vice-Presidents of the Federal Courts of Germany}
+\newcommand{\datashort}{PVP-FCG}
+
+
+\newcommand{\version}{\today}
+
+\newcommand{\softwareconceptdoi}{10.5281/zenodo.4568685} 
+\newcommand{\softwareversiondoi}{10.5281/zenodo.4568686}
+\newcommand{\dataconceptdoi}{10.5281/zenodo.4568681}
+\newcommand{\dataversiondoi}{10.5281/zenodo.4568682}
+
+\newcommand{\softwareconcepturldoi}{https://doi.org/\softwareconceptdoi}
+\newcommand{\softwareversionurldoi}{https://doi.org/\softwareversiondoi}
+\newcommand{\dataconcepturldoi}{https://doi.org/\dataconceptdoi}
+\newcommand{\dataversionurldoi}{https://doi.org/\dataversiondoi}
+
+
+
+%===========================
+% Title Page
+%===========================
+
+
+\pagestyle{empty}
+
+\begin{tikzpicture}[overlay,remember picture]
+ 
+\node[align=center] at ($(current page.center)+(0,8.5)$)
+{ \scshape \Huge \bfseries Presidents and Vice-Presidents \\[0.8cm] \Huge \bfseries \scshape of the \\[0.8cm] \Huge \bfseries \scshape Federal Courts of Germany \\[0.8cm] \LARGE \bfseries (\datashort )};
+
+\node[align=center] at ($(current page.center)+(0,2)$) 
+{ \scshape \LARGE Codebook};
+
+\node[align=center] at ($(current page.center)+(0,-8)$)
+{ \large Version \version};
+
+\node[align=center] at ($(current page.center)+(0,-10)$)
+    {\includegraphics[width=.20\textwidth]{./buttons/cc-zero.png}};
+
+\node[align=center] at ($(current page.center)+(0,-12)$) 
+{ \large DOI: \dataversiondoi};
+
+\end{tikzpicture}
+
+\newpage
+
+\pagestyle{plain}
+
+
+
+
+
+%===========================
+% Inside Cover
+%===========================
+
+\newpage
+\ra{1.5}
+
+
+\begin{centering}
+\begin{longtable}{p{2.5cm}p{12.5cm}}
+
+\textbf{Title} & \datatitle \\
+\textbf{Abbreviation} & \datashort \\
+\textbf{Authors} & \dataauthor\\
+\textbf{Version} & \version \\
+\textbf{Download} & \url{\dataversionurldoi}\\
+\textbf{License} & CC0 1.0 Universal\\
+
+\end{longtable}
+\end{centering}
+
+
+
+\textbf{Citation}
+
+\emph{\dataauthor} (\the\year ). \datatitle\ (\datashort ). Version \version . Zenodo. DOI: \dataversiondoi .
+
+\vspace{0.5cm}
+
+\textbf{Digital Object Identifiers: Concept DOI und Version DOI}
+
+This data set is uniquely identified by Digital Object Identifiers (DOI). DOIs are persistent identifiers which are not only uniquely assigned, but can also be resolved by entering a DOI into the web service at \url{www.doi.org}. The DOI given in this document is a \emph{Version DOI}, which uniquely identifies Version \version. Academics and others who wish to enable replication analyses are strongly advised to cite the precise version of the data and its associated \emph{Version DOI}. A \emph{Concept DOI} is available from the page of the Zenodo record under the heading \enquote{Cite all versions?} and will always resolve to the latest version.
+
+\vspace{0.5cm}
+
+
+
+\textbf{Copyright}
+
+The full data set and this document are distributed under a \textbf{Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication} license. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights. Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law. 
+
+Please see \url{https://creativecommons.org/publicdomain/zero/1.0/legalcode} for the full terms of the license.
+
+
+\vspace{0.5cm}
+
+\textbf{Disclaimer} 
+
+This data set is a private academic initiative and is not associated in any way with the Federal Courts or any other governmental authorities of the Federal Republic of Germany.
+
+
+\newpage
