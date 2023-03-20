@@ -255,18 +255,20 @@ out.vpresident$version <- rep(datestamp, out.vpresident[,.N])
 
 
 fwrite(out.president,
-       paste(datasetname,
-             datestamp,
-             "GermanFederalCourts_Presidents.csv",
-             sep = "_"),
+       file.path(outputdir,
+                 paste(datasetname,
+                       datestamp,
+                       "GermanFederalCourts_Presidents.csv",
+                       sep = "_")),
        na = "NA")
 
 
 fwrite(out.vpresident,
-       paste(datasetname,
-             datestamp,
-             "GermanFederalCourts_VicePresidents.csv",
-             sep = "_"),
+       file.path(outputdir,
+                 paste(datasetname,
+                       datestamp,
+                       "GermanFederalCourts_VicePresidents.csv",
+                       sep = "_")),
        na = "NA")
 
 
