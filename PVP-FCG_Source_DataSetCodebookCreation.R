@@ -87,10 +87,10 @@ outputdir <- paste0(getwd(),
 
 
 ## Read CSV
-source.president <- fread("PVP-FCG_Source_Handcoded_Presidents_V1-1001.csv",
+source.president <- fread("PVP-FCG_Source_Handcoded_Presidents.csv",
                           na.strings = "NA")
 
-source.vpresident <- fread("PVP-FCG_Source_Handcoded_VicePresidents_V1-1001.csv",
+source.vpresident <- fread("PVP-FCG_Source_Handcoded_VicePresidents.csv",
                            na.strings = "NA")
 
 
