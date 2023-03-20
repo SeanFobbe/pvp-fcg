@@ -13,7 +13,7 @@
 #'    includes:
 #'      in_header: General_Source_TEX_Preamble_EN.tex
 #'      before_body: [PVP-FCG_Source_TEX_CodebookTitle.tex]
-#'bibliography: packages.bib
+#'bibliography: output/packages.bib
 #'nocite: '@*'
 #' ---
 
@@ -48,7 +48,7 @@ library(ggplot2)
 
 ## Write Citations to Disk
 knitr::write_bib(c(.packages()),
-                 "packages.bib")
+                 "output/packages.bib")
 
 
 
