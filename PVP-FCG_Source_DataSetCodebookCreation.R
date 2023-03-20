@@ -74,10 +74,10 @@ datestamp <- Sys.Date()
 ## Output Directory (must end with a slash)
 
 outputdir <- paste0(getwd(),
-                    "/ANALYSIS/") 
+                    "/output/") 
 
 
-
+dir.create(outputdir)
 
 
 
@@ -1050,30 +1050,14 @@ kable(vp.table.age.termend,
 
 
 
+#' \newpage
+
+#+ results = "asis", echo = FALSE
+cat(readLines("CHANGELOG.md"),
+    sep = "\n")
 
 
-#+
-#'# Changelog
-#' This Changelog documents all changes made to the data set. Versions are named according to the day on which the data set was created.
-#' \vspace{1cm}
 
-#'\ra{1.5}
-#'\begin{centering}
-#'\begin{longtable}{p{3cm}p{11cm}}
-
-#'\toprule
-
-#'Version & Notes\\
-
-#'\midrule
-
-
-#' \version & Initial Release\\
-
-#'\bottomrule
-
-#'\end{longtable}
-#'\end{centering}
 
 
 ###############################
@@ -1112,13 +1096,6 @@ zip(paste(datasetname,
            sep = "_"),
     files.source)
 
-
-
-#' \newpage
-
-#+ results = "asis", echo = FALSE
-cat(readLines("CHANGELOG.md"),
-    sep = "\n")
 
 
 
