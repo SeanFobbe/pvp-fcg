@@ -71,13 +71,14 @@ doi.version <- "10.5281/zenodo.4568682"
 ## Date Stamp
 datestamp <- Sys.Date()
 
-## Output Directory (must end with a slash)
+## Analysis Directory (must end with a slash)
 
-outputdir <- paste0(getwd(),
-                    "/output/") 
+dir.analysis <- paste0(getwd(),
+                    "/analysis/") 
 
 
-dir.create(outputdir)
+dir.create(dir.analysis)
+dir.create("output")
 
 
 
@@ -255,7 +256,7 @@ out.vpresident$version <- rep(datestamp, out.vpresident[,.N])
 
 
 fwrite(out.president,
-       file.path(outputdir,
+       file.path("output",
                  paste(datasetname,
                        datestamp,
                        "GermanFederalCourts_Presidents.csv",
@@ -264,7 +265,7 @@ fwrite(out.president,
 
 
 fwrite(out.vpresident,
-       file.path(outputdir,
+       file.path("output",
                  paste(datasetname,
                        datestamp,
                        "GermanFederalCourts_VicePresidents.csv",
@@ -1074,28 +1075,24 @@ zip(paste0(datasetname,
            "_",
            datestamp,
            "_EN_",
-           basename(outputdir),
+           basename(dir.analysis),
            ".zip"),
-    basename(outputdir))
+    basename(dir.analysis))
 
 
 
 ## ZIP Source Files
 
-files.source <- c(list.files(pattern = "Source"),
-                  "buttons")
+files.source <- c(system2("git",
+                          "ls-files",
+                          stdout = TRUE),
+                  ".git")
 
-
-files.source <- grep("spin",
-                     files.source,
-                     value = TRUE,
-                     ignore.case = TRUE,
-                     invert = TRUE)
-
-zip(paste(datasetname,
-           datestamp,
-           "Source_Files.zip",
-           sep = "_"),
+zip(paste("output/",
+          datasetname,
+          datestamp,
+          "Source_Files.zip",
+          sep = "_"),
     files.source)
 
 
