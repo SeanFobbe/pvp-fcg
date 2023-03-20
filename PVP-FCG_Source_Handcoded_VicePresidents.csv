@@ -25,12 +25,14 @@ BVerwG,Franke,Ingeborg,F,1993-10-01,2000-05-31,1935-05-21,NA,NA,NA,NA,NA,NA,NA,N
 BVerwG,VACANCY-2,VACANCY-2,NA,2000-06-01,2000-06-21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BVerwG,Hien,Eckart,M,2000-06-22,2002-09-30,1942-05-13,NA,NA,NA,NA,NA,NA,NA,NA,Q111587,108081060,NA,NA,NA,NA
 BVerwG,Eckertz-Höfer,Marion,F,2002-10-01,2007-05-31,1948-11-23,NA,NA,NA,NA,NA,NA,NA,NA,Q1692112,139058664,NA,NA,NA,NA
-BVerwG,Hund,Michael,M,2007-06-01,2011-10-31,NA,NA,NA,NA,NA,NA,NA,NA,NA,Q1168622,1138715166,Born 1946; date of birth unknown,NA,NA,NA
+BVerwG,Hund,Michael,M,2007-06-01,2011-10-31,NA,NA,NA,NA,NA,NA,NA,NA,NA,Q1168622,1138715166,Born 1946, date of birth unknown,NA,NA
 BVerwG,VACANCY-3,VACANCY-3,NA,2011-11-01,2012-11-20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BVerwG,Rennert,Klaus,M,2012-11-21,2014-06-30,1955-09-24,NA,NA,NA,NA,NA,NA,NA,NA,Q1745601,1025101707,NA,NA,NA,NA
-BVerwG,Christ,Josef,M,2014-07-01,2017-11-30,NA,NA,NA,NA,NA,NA,NA,NA,NA,Q1704444,1059406985,Born 1956; date of birth unknown,NA,NA,NA
+BVerwG,Christ,Josef,M,2014-07-01,2017-11-30,NA,NA,NA,NA,NA,NA,NA,NA,NA,Q1704444,1059406985,Born 1956, date of birth unknown,NA,NA
 BVerwG,VACANCY-4,VACANCY-4,NA,2017-12-01,2019-05-21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BVerwG,Korbmacher,Andreas,M,2019-05-22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Q498933,1125482664,Born 1960; date of birth unknown,NA,NA,NA
+BVerwG,Korbmacher,Andreas,M,2019-05-22,2022-09-07,1960-01-12,NA,NA,NA,NA,NA,NA,NA,NA,Q498933,1125482664,Born 1960, date of birth unknown,NA,NA
+BVerwG,VACANCY-4,VACANCY-4,NA,2022-09-08,2023-01-30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BVerwG,Rublack,Susanne,F,2023-01-31,NA,1962-08-13,NA,NA,NA,NA,NA,NA,NA,NA,Q102385594,1202992730,,,,
 BGH,Glanzmann,Roderich,M,1965-05-17,1972-04-30,1904-04-15,1988-08-07,NA,NA,NA,NA,NA,NA,NA,Q2161053,93603173,NA,NA,NA,NA
 BGH,VACANCY-1,VACANCY-1,NA,1972-05-01,1972-05-22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BGH,Hauß,Fritz,M,1972-05-23,1976-10-31,1908-10-27,2003-04-30,NA,NA,NA,NA,NA,NA,NA,Q1315581,1012784061,NA,NA,NA,NA
@@ -47,14 +49,14 @@ BGH,Müller,Gerda,F,2005-07-01,2009-06-30,1944-06-26,NA,NA,NA,NA,NA,NA,NA,NA,Q12
 BGH,Schlick,Wolfgang,M,2009-07-01,2015-07-31,1950-03-29,NA,NA,NA,NA,NA,NA,NA,NA,Q2591200,140096817,NA,NA,NA,NA
 BGH,VACANCY-4,VACANCY-4,NA,2015-08-01,2016-12-01,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BGH,Ellenberger,Jürgen,M,2016-12-02,NA,1960-04-19,NA,NA,NA,NA,NA,NA,NA,NA,Q19959357,12092160X,NA,NA,NA,NA
-BPatG,Kaiser,Karl,M,1961-07-01,1965-06-30,,,,,,,,,,,,,,,
-BPatG,Brösamle,Adolf,M,1966-07-29,1969-07-31,,,,,,,,,,,,,,,
-BPatG,Köttgen,Hermann,M,1969-08-??,1974-12-31,,,,,,,,,,,,Exact date of term begin unclear,,,
-BPatG,Gast,Erich,M,1975-01-??,1978-04-30,,,,,,,,,,,,Exact date of term begin unclear,,,
-BPatG,Leise,Karl-Heinz,M,1978-05-??,1984-01-31,,,,,,,,,,,,Exact date of term begin unclear,,,
-BPatG,Bühler,Gerhard,M,1984-02-01,1987-04-30,,,,,,,,,,,,,,,
-BPatG,Engelhardt,Hans,M,1987-05-??,1991-05-31,,,,,,,,,,,,Exact date of term begin unclear,,,
-BPatG,Haugg,Norbert,M,1991-06-??,1995-07-31,,,,,,,,,,,,Exact date of term begin unclear,,,
-BPatG,Schnegg,Hansjörg,M,1995-12-22,2004-01-30,,,,,,,,,,,,,,,
-BPatG,Tödte,Bernd,M,2004-05-05,2009-09-30,,,,,,,,,,,,,,,
-BPatG,Strößner,Klaus,M,2010-07-??,NA,,,,,,,,,,,,Exact date of term begin unclear,,,
+BPatG,Kaiser,Karl,M,1961-07-01,1965-06-30,,,NA,NA,NA,NA,NA,NA,NA,,,,,,
+BPatG,Brösamle,Adolf,M,1966-07-29,1969-07-31,,,NA,NA,NA,NA,NA,NA,NA,,,,,,
+BPatG,Köttgen,Hermann,M,1969-08-??,1974-12-31,,,NA,NA,NA,NA,NA,NA,NA,,,Exact date of term begin unclear,,,
+BPatG,Gast,Erich,M,1975-01-??,1978-04-30,,,NA,NA,NA,NA,NA,NA,NA,,,Exact date of term begin unclear,,,
+BPatG,Leise,Karl-Heinz,M,1978-05-??,1984-01-31,,,NA,NA,NA,NA,NA,NA,NA,,,Exact date of term begin unclear,,,
+BPatG,Bühler,Gerhard,M,1984-02-01,1987-04-30,,,NA,NA,NA,NA,NA,NA,NA,,,,,,
+BPatG,Engelhardt,Hans,M,1987-05-??,1991-05-31,,,NA,NA,NA,NA,NA,NA,NA,,,Exact date of term begin unclear,,,
+BPatG,Haugg,Norbert,M,1991-06-??,1995-07-31,,,NA,NA,NA,NA,NA,NA,NA,,,Exact date of term begin unclear,,,
+BPatG,Schnegg,Hansjörg,M,1995-12-22,2004-01-30,,,NA,NA,NA,NA,NA,NA,NA,,,,,,
+BPatG,Tödte,Bernd,M,2004-05-05,2009-09-30,,,NA,NA,NA,NA,NA,NA,NA,,,,,,
+BPatG,Strößner,Klaus,M,2010-07-??,NA,,,NA,NA,NA,NA,NA,NA,NA,,,Exact date of term begin unclear,,,
