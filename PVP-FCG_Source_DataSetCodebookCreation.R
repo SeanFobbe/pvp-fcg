@@ -1113,6 +1113,18 @@ zip(paste(datasetname,
     files.source)
 
 
+
+#' \newpage
+
+#+ results = "asis", echo = FALSE
+cat(readLines("CHANGELOG.md"),
+    sep = "\n")
+
+
+
+
+
+
 #'\newpage
 #+
 #'# Strict Replication Parameters
