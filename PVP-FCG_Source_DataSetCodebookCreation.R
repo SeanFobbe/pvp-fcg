@@ -24,7 +24,7 @@ knitr::opts_chunk$set(dev = c("pdf", "png"),
                       fig.align = "center",
                       dpi = 300,
                       fig.path = paste0(getwd(),
-                                        "/ANALYSIS/"),
+                                        "/analysis/"),
                       echo = FALSE,
                       warning = FALSE,
                       message = FALSE)
@@ -1071,11 +1071,12 @@ cat(readLines("CHANGELOG.md"),
 
 ## ZIP Analysis Data
 
-zip(paste0(datasetname,
+zip(paste0("output",
+           datasetname,
            "_",
            datestamp,
            "_EN_",
-           basename(dir.analysis),
+           "Analysis",
            ".zip"),
     basename(dir.analysis))
 
