@@ -1089,11 +1089,12 @@ files.source <- c(system2("git",
                           stdout = TRUE),
                   ".git")
 
-zip(paste("output/",
-          datasetname,
-          datestamp,
-          "Source_Files.zip",
-          sep = "_"),
+zip(paste0("output/",
+           datasetname,
+           "_",
+           datestamp,
+           "_",
+           "Source_Files.zip"),
     files.source)
 
 
