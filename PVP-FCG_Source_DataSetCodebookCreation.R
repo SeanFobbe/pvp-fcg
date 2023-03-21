@@ -1071,7 +1071,7 @@ cat(readLines("CHANGELOG.md"),
 
 ## ZIP Analysis Data
 
-zip(paste0("output",
+zip(paste0("output/",
            datasetname,
            "_",
            datestamp,
